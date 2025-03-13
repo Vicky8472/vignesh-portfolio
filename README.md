@@ -84,4 +84,4 @@ Install the Live Server extension (if not installed).
 
 Right-click index.html → Select "Open with Live Server".
 
-Now, you can see your portfolio running locally! 🎯
+Now, you can see the  portfolio running locally! 🎯
