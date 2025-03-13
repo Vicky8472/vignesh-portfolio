@@ -40,15 +40,48 @@ This portfolio is **fully responsive**, ensuring a seamless experience across di
 **Media queries** are used to fine-tune the design based on device width, ensuring **perfect alignment and usability on all devices**.  
 
 ---
+🚀 How to Run This Project
 
-## 🚀 How to Run This Project  
+1️⃣ View Online (Recommended)
 
-### **1️⃣ View Online (Recommended)**  
-Simply visit: **[Portfolio Live Link](https://vicky8472.github.io/vignesh-portfolio/)**  
+To view the live version of the portfolio, simply visit:🔗 Portfolio Live Link(https://vicky8472.github.io/vignesh-portfolio/)
 
-### **2️⃣ Run Locally**  
-Follow these steps:  
+2️⃣ Run Locally
 
-1. **Clone the repository**  
-   ```bash
-   https://github.com/Vicky8472/vignesh-portfolio
+Follow these steps to run the portfolio on your own system:
+
+Step 1: Clone the Repository
+
+Download a copy of the project to your local machine using Git.
+
+Open Command Prompt (CMD) / Terminal
+
+Run the following command:
+
+git clone https://github.com/Vicky8472/vignesh-portfolio
+
+Step 2: Navigate to the Project Folder
+
+Once cloned, move into the project directory by running:
+
+cd repository-name  
+
+Step 3: Open the Project in a Browser
+
+There are two ways to open your portfolio locally:
+
+Option 1: Open Directly in Browser
+
+Locate the index.html file inside the project folder.
+
+Double-click it to open in your default web browser.
+
+Option 2: Use Live Server (Recommended for Developers)
+
+Open the project folder in VS Code.
+
+Install the Live Server extension (if not installed).
+
+Right-click index.html → Select "Open with Live Server".
+
+Now, you can see your portfolio running locally! 🎯
