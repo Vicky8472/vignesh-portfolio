@@ -3,7 +3,7 @@
 Welcome to my personal web developer portfolio! 🚀 This portfolio showcases my skills, projects, and experience in web development, featuring a **fully responsive design** for an optimal experience across all devices.  
 
 ## 🔹 Live Demo  
-🔗 **[View Portfolio](https://your-username.github.io/repository-name/)**  
+🔗 **[View Portfolio](https://vicky8472.github.io/vignesh-portfolio/)**  
 
 ## 📌 About  
 I am passionate about developing **dynamic and responsive web pages** with intuitive **UI designs**. With expertise in **HTML, CSS, and JavaScript**, I build engaging user experiences while ensuring smooth interactivity with well-structured frontend logic.  
