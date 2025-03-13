@@ -13,9 +13,7 @@ This portfolio highlights my **technical skills, projects, and internship experi
 ---
 
 ## 🖥️ Technologies Used  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Libraries & Frameworks:** Bootstrap, CSS Animations  
-- **Tools:** GitHub Pages for hosting  
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap.   
 
 ---
 
