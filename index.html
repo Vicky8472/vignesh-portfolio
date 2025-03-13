@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vignesh Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="main-container">
+
+
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <h1>VIGNESH K</h1>
+    </div>
+    
+ 
+
+    <div class="right-nav">
+    
+      <a href="#"  onclick="scrollToProject()">Projects</a>
+
+      <!-- LinkedIn Icon -->
+      <a href="https://www.linkedin.com/in/vignesh-py-developer" target="_blank" class="icon linkedin">
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+      <!-- GitHub Icon -->
+      <a href="https://github.com/Vicky8472" target="_blank" class="icon github">
+        <i class="bi bi-github"></i>
+      </a>
+
+      <!-- Dark/Light Mode Toggle -->
+      <button id="theme-toggle">
+        <i id="moon-icon" class="bi bi-moon"></i>  <!-- Moon Icon (Default for Light Mode) -->
+        <i id="sun-icon" class="bi bi-brightness-high" style="display: none;"></i> <!-- Sun Icon (For Dark Mode) -->
+      </button>
+      
+      
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <div class="intro-section">
+        <div class="intro-left">
+          <img src="img/vignesh.jpeg" alt="Vignesh's Picture">
+        </div>
+        <div class="intro-right">
+          <h2>Hi there, I'm Vignesh 👋</h2>
+<h1>Web  Developer</h1>
+<p>
+"I am passionate about building dynamic and responsive web pages with  user-friendly  UI designs. With expertise in HTML, CSS, and JavaScript, I design attractive  user experiences while ensuring seamless backend integration  using Django and MySQL. I love creating visually appealing and efficient web solutions that turn ideas into reality."
+</p>
+
+          <div class="buttons">
+            <a href="#" class="btn" onclick="scrollToContact()">Get in Touch</a>
+            <a href="#" class="btn" onclick="scrollToProject()">Browse Projects</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="education">
+        <h1 class="edu-title">Education 📚</h1> <!-- Section Title -->
+        <div class="education-container">
+            <!-- Left Side: Education Image -->
+            <div class="education-image">
+                <div class="typewriter-container">
+                    <p id="typewriter"></p> <!-- Typewriter Effect -->
+                </div>
+            </div>
+    
+            <!-- Right Side: Cards (Schooling & College) -->
+            <div class="card-container">
+                <!-- Schooling Section -->
+                <div class="card schooling-card">
+                    <h2>Schooling 🏫</h2>
+                    <p class="degree">10th & 12th Standard</p>
+                    <div class="hidden-details">
+                        <p>GOVT Higher Secondary School, Manjoor (2018 - 2021)</p>
+                        <p>Secured <strong>78%</strong> in 10th standard.</p>
+                        <p>Secured <strong>82%</strong> in 12th standard.</p>
+                    </div>
+                </div>
+    
+                <!-- College Section -->
+                <div class="card college-card">
+                    <h2>College 🎓</h2>
+                    <p class="degree">Bachelor of Science in Information Technology</p>
+                    <div class="hidden-details">
+                        <p>Sri Krishna Adithya College of Arts and Science, Coimbatore (2021 - 2024)</p>
+                        <p>Graduated with distinction, securing <strong>81%</strong>.</p>
+                        <p>Learnt the basics of <strong>C, C++, DBMS</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+     
+    </div>
+    <section id="certifications">
+      <h2 class="cer-title">CERTIFICATIONS</h2>
+      <div class="certifications-container">
+        <!-- Left side: List of certificates -->
+        <div class="cert-list">
+          <div class="cert-item active" data-image="img/py.png">
+            <h3>1. Course Completion</h3>
+            <p>Full Stack Development with Python</p>
+          </div>
+          
+          <div class="cert-item" data-image="img/nptel.jpeg">
+            <h3>2.NPTEL</h3>
+            <p>Database Management System</p>
+          </div>
+          <div class="cert-item" data-image="img/coursera.png">
+            <h3>3.COURSERA</h3>
+            <p>Develop a Free Website With Wordpress</p>
+          </div>
+          <div class="cert-item" data-image="img/gl1.png">
+            <h3>4.GREAT LEARNING</h3>
+            <p>Frontend Development With HTML</p>
+          </div>
+          <div class="cert-item" data-image="img/conf.jpeg">
+            <h3>5.IMPACT 24</h3>
+            <p>International Conference.</p>
+          </div>
+        </div>
+    
+        <!-- Right side: Image display -->
+        <div class="cert-image">
+          <img id="cert-display" src="img/py.png" alt="Certification Image">
+        </div>
+      
+        
+      </div>
+    </section>
+ 
+<!--  skills section -->
+<section class="skills-container">
+  <!-- Galaxy Animation -->
+  <div class="stars"></div> <!-- Background Stars -->
+  <div class="shooting-star"></div> <!-- Shooting Star Effect -->
+
+  <h2 class="section-title" id="skillt">Skills</h2>
+
+  <div class="skills-wrapper">
+      <div class="skill-box technical-skills">
+          <h3 class="skills-title">Technical Skills</h3>
+          <div class="skills-grid">
+              <div class="skill-card" data-tooltip="Markup language for structuring web pages">
+                  <img class="skill-icon" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML">
+                  <p>HTML</p>
+              </div>
+              <div class="skill-card" data-tooltip="Stylesheet language for designing web pages">
+                  <img class="skill-icon" src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS">
+                  <p>CSS</p>
+              </div>
+              <div class="skill-card" data-tooltip="Dynamic web scripting language">
+                  <img class="skill-icon" src="https://img.icons8.com/?size=100&id=laVIsJnTtYoj&format=png&color=000000" alt="JavaScript">
+                  <p>JavaScript</p>
+              </div>
+              <div class="skill-card" data-tooltip="Programming language for web development">
+                  <img class="skill-icon" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="Python">
+                  <p>Python</p>
+              </div>
+              <div class="skill-card" data-tooltip="A Python framework for web applications">
+                  <img class="skill-icon" src="https://img.icons8.com/?size=100&id=qc3TyHJPxEoH&format=png&color=000000" alt="Django">
+                  <p>Django</p>
+              </div>
+              <div class="skill-card" data-tooltip="A relational database management system">
+                  <img class="skill-icon" src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="MySQL">
+                  <p>MySQL</p>
+              </div>
+              <div class="skill-card" data-tooltip="A lightweight, serverless SQL database">
+                  <img class="skill-icon" src="img/sql.png" alt="SQLite">
+                  <p>SQLite</p>
+              </div>
+              <div class="skill-card" data-tooltip="A high-performance programming language">
+                  <img class="skill-icon" src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="C++">
+                  <p>C++</p>
+              </div>
+              <div class="skill-card" data-tooltip="A procedural programming language">
+                  <img class="skill-icon" src="https://img.icons8.com/?size=100&id=40670&format=png&color=000000" alt="C">
+                  <p>C</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="soft-skills">
+          <h2 class="section-title">SOFT SKILLS</h2>
+          <div class="soft-skills-grid">
+              <div class="soft-skill-item"><i class="bi bi-chat-dots"></i> Communication</div>
+              <div class="soft-skill-item"><i class="bi bi-clipboard-check"></i> Decision Making</div>
+              <div class="soft-skill-item"><i class="bi bi-people"></i> Coordination</div>
+              <div class="soft-skill-item"><i class="bi bi-clock"></i> Time Management</div>
+              <div class="soft-skill-item"><i class="bi bi-arrow-repeat"></i> Adaptability</div>
+              <div class="soft-skill-item"><i class="bi bi-people-fill"></i> Teamwork</div>
+              <div class="soft-skill-item"><i class="bi bi-lightbulb"></i> Creativity</div>
+              <div class="soft-skill-item"><i class="bi bi-puzzle"></i> Problem-Solving</div>
+          </div>
+      </div>
+  </div>
+
+  <div class="skill-box tools-frameworks">
+      <h3 class="skills-title" id="t-title">Tools & Frameworks</h3>
+      <div class="tools-grid">
+          <div class="tool-item">Bootstrap</div>
+          <div class="tool-item">React</div>
+          <div class="tool-item">Django</div>
+          <div class="tool-item">Flask</div>
+          <div class="tool-item">MySQL</div>
+          <div class="tool-item">SQLite</div>
+          <div class="tool-item">GitHub</div>
+          <div class="tool-item">VS Code</div>
+          <div class="tool-item">Canva</div>
+          <div class="tool-item">WordPress</div>
+          <div class="tool-item">Lightroom</div>
+          <div class="tool-item">Prompt Engineering</div>
+          <div class="tool-item">Tkinter</div>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section id="internships">
+  <h2 class="section-title" id="int-title">Internships</h2>
+  <div class="internship-container">
+      
+      <!-- Python Internship Card -->
+      <div class="internship-wrapper">
+        <h3 class="internship-title">PYTHON INTERN </h3>
+        <div class="internship-card python-intern">
+            <div class="internship-content">
+                <div class="internship-header">
+                    <p class="internship-location">📌ANP SOFT TECH , Coimbatore</p>
+                    <p class="internship-date">📅October 2024</p>
+                </div>
+               
+                <p class="internship-description" id=" descc">
+                    Explored  The core Python concepts and built a strong foundation in:
+                </p>
+                <ul class="internship-list">
+                  <li>Understanding the Basics of Python Syntax & Logic</li>
+                  <li>Variables & Data Types</li>
+                  <li>Loops & Conditionals</li>
+                  <li>Functions & String Manipulation</li>
+                  <li>File Handling & Exception Handling</li>
+              </ul>
+              
+            </div>
+        </div>
+      </div>
+
+      <!-- SEO Internship Card -->
+      <div class="internship-wrapper">
+        <h3 class="internship-title">DIGITAL MARKETING </h3>
+        <div class="internship-card seo-intern">
+            <div class="internship-content">
+                <div class="internship-header">
+                    <p class="internship-location">📌XPLOREITCORP, Coimbatore</p>
+                    <p class="internship-date">📅Dec 2024 - Feb 2025</p>
+                </div>
+                
+                <h4 class="internship-role">🚀SEO Intern</h4>
+                <div class="internship-details">
+                    <ul class="internship-list">
+                        <li>Executed off-page SEO strategies (article, image, PDF, PPT, profile, bookmark, and comment submissions).</li>
+                        <li>Optimized site blogs to improve search rankings.</li>
+                        <li>Enhanced 5+ web pages, boosting their search visibility.</li>
+                    </ul>
+                    <ul class="internship-list">
+                        <li>Created and managed a web page using WordPress.</li>
+                        <li>Gained hands-on experience in on-page, technical, and off-page SEO.</li>
+                        <li>Learned the impact of SEO strategies on rankings and content optimization.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+  </div>
+</section>
+
+
+
+
+
+<section id="projects">
+  <h2 class="section-title" id="pro-title"> Projects</h2>
+  
+  <div class="projects-container">
+    <!-- Shadows for card positions -->
+    <div class="project-card-shadow shadow-1"></div>
+    <div class="project-card-shadow shadow-2"></div>
+    <div class="project-card-shadow shadow-3"></div>
+
+    <!-- Actual Cards -->
+    <div class="project-card project-1">
+      <h3>KickArt - E-Commerce Shoe Store</h3>
+      <span class="project-type">Full-Stack</span>
+      <hr>
+      <p>"An online shoe store with user authentication, category-based filtering, and full <u>CRUD</u> operations via the admin panel. Superusers can manage product listings.".</p>
+      <h4>Tech Stack</h4>
+      <div class="tech-icons">
+          <img src="https://img.icons8.com/?size=50&id=20909&format=png" alt="HTML">
+          <img src="https://img.icons8.com/?size=50&id=laVIsJnTtYoj&format=png" alt="JavaScript">
+          <img src="https://img.icons8.com/?size=50&id=qc3TyHJPxEoH&format=png" alt="Django">
+          <img src="https://img.icons8.com/?size=50&id=UFXRpPFebwa2&format=png" alt="MySQL">
+      </div>
+      <button class="view-project-btn">View Project</button>
+  </div>
+
+  <!-- Project 2 (Moved YouTube Clone) -->
+  <div class="project-card project-2">
+      <h3>YouTube Clone</h3>
+      <span class="project-type">Frontend</span>
+      <hr>
+      <p>"A realistic YouTube UI replica with an active media player and an additional stats page, showcasing responsive design and interactive elements.".</p>
+      <h4>Tech Stack</h4>
+      <div class="tech-icons">
+        <img src="https://img.icons8.com/?size=50&id=20909&format=png" alt="HTML">
+        <img src="https://img.icons8.com/?size=50&id=21278&format=png" alt="CSS">
+        <img src="https://img.icons8.com/?size=50&id=laVIsJnTtYoj&format=png" alt="JavaScript">
+        <img src="https://img.icons8.com/?size=50&id=EzPCiQUqWWEa&format=png&color=000000" alt="Bootstrap">
+    </div>
+    
+      <button class="view-project-btn">View Project</button>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card project-3">
+      <h3>Document Sharing Platform</h3>
+      <span class="project-type">Backend</span>
+      <hr>
+      <p>"A secure document management platform with authentication, admin controls for file management, and user access for viewing and downloading."</p>
+      <h4>Tech Stack</h4>
+      <div class="tech-icons">
+        <img src="https://img.icons8.com/?size=50&id=13441&format=png" alt="Python">
+        <img src="https://img.icons8.com/?size=50&id=qc3TyHJPxEoH&format=png" alt="Django">
+        <img src="https://img.icons8.com/?size=50&id=UFXRpPFebwa2&format=png" alt="MySQL">
+        <span class="tech-text">Tkinter</span>
+    </div>
+    
+      <button class="view-project-btn">View Project</button>
+  </div>
+
+  
+</section>
+
+
+
+
+<div id="contact-section" class="contact-section">
+
+  <div class="contact-header-container">
+      <h2 class="contact-header">Let's Connect!</h2>
+      <button id="back-to-top" onclick="scrollToIntro()">Back to Top</button>
+  </div>
+  
+  <div class="contact-container">
+  
+      <button id="contact-button">Show Mail</button>
+      
+      <p id="contact-info">Click the button to view contact details</p>
+
+      <div class="contact-items">
+          <a href="mailto:vigneshkrishnan093@gmail.com" target="_blank" class="contact-item email">
+              <img src="img/mail.png" alt="Email">
+              <p>vigneshkrishnan093@gmail.com</p>
+          </a>
+          <a href="https://www.linkedin.com/in/vignesh-py-developer" target="_blank" class="contact-item linkedin">
+              <img src="img/linkedin.png" alt="LinkedIn">
+              <p>linkedin.com/in/vignesh</p>
+          </a>
+        
+          <a href="https://github.com/Vicky8472" target="_blank" class="contact-item github">
+              <img src="img/gittt.png" alt="GitHub" class="git">
+              <p>github.com/vicky</p>
+          </a>
+       
+          <a  class="contact-item phone">
+              <img src="img/phone.png" alt="Phone">
+              <p>+91 9360201711</p>
+          </a>
+      </div>
+  </div>
+  <div id="smoke-effect"></div> 
+</div>
+
+
+
+
+<hr>
+
+  </div> 
+  </div>
+  <script src="home.js"></script>
+  <script>
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+      const container = document.querySelector(".skills-container");
+
+      // Creating twinkling stars
+      for (let i = 0; i < 100; i++) {
+        let star = document.createElement("div");
+        star.classList.add("star");
+        star.style.left = Math.random() * 100 + "%";
+        star.style.top = Math.random() * 50 + "%";
+        star.style.animationDuration = Math.random() * 3 + 2 + "s";
+        container.appendChild(star);
+      }
+
+      // Creating shooting stars
+      for (let i = 0; i < 20; i++) {
+        let shootingStar = document.createElement("div");
+        shootingStar.classList.add("shooting-star");
+        shootingStar.style.left = Math.random() * 100 + "%";
+        shootingStar.style.top = Math.random() * 100 + "%";
+        shootingStar.style.animationDelay = Math.random() * 5 + "s";
+        container.appendChild(shootingStar);
+      }
+    });
+
+
+
+const contactButton = document.getElementById("contact-button");
+const contactItems = document.querySelectorAll(".contact-item");
+const contactContainer = document.querySelector(".contact-container");
+
+// Create gradient effect div
+const lightEffect = document.createElement("div");
+lightEffect.classList.add("light-effect");
+contactContainer.appendChild(lightEffect);
+
+const backToTopButton = document.getElementById("back-to-top");
+
+let step = 0;
+const buttonTexts = [ "Show LinkedIn","Show GitHub", "Show Mobile", "Get Them Back", "Show details"];
+
+contactButton.addEventListener("click", () => {
+    if (step < 4) {
+        contactItems[step].style.opacity = "1";
+        contactItems[step].style.transform = "scale(1)";
+        contactButton.textContent = buttonTexts[step];
+        step++;
+    } else {
+        // Trigger Light Gradient Effect
+        lightEffect.classList.add("active");
+
+        setTimeout(() => {
+            contactItems.forEach(item => {
+                item.style.opacity = "0";
+                item.style.transform = "scale(0.5)";
+            });
+            lightEffect.classList.remove("active"); // Remove effect after animation
+        }, 300); // Fast animation speed
+
+        step = 0;
+        contactButton.textContent = buttonTexts[4];
+    }
+
+    // Mario Jump Animation
+    contactButton.style.transform = "translateY(-8px)";
+    setTimeout(() => {
+        contactButton.style.transform = "translateY(0)";
+    }, 150);
+});
+
+// Back to Top Button - Scroll to Intro Section
+backToTopButton.addEventListener("click", () => {
+    const introSection = document.querySelector(".intro-section");
+    if (introSection) {
+        introSection.scrollIntoView({ behavior: "smooth" });
+    }
+});
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    function checkScroll() {
+        let section = document.getElementById("internships");
+        let position = section.getBoundingClientRect().top;
+        let screenHeight = window.innerHeight;
+
+        if (position < screenHeight * 0.75) {
+            section.classList.add("animated");
+        } else {
+            section.classList.remove("animated"); // Reset animation each time
+        }
+    }
+
+    window.addEventListener("scroll", checkScroll);
+});
+
+    
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const skillsContainer = document.querySelector(".skills-container");
+    const softSkillItems = document.querySelectorAll(".soft-skill-item");
+    const toolItems = document.querySelectorAll(".tool-item");
+    let hasAnimated = false; // Flag to track if animation has already played
+
+    function animateSkills() {
+        const sectionPos = skillsContainer.getBoundingClientRect().top;
+        const screenPos = window.innerHeight / 1.3;
+
+        if (sectionPos < screenPos && !hasAnimated) {
+            hasAnimated = true; // Prevent re-triggering when scrolling up
+
+            // Reset animations
+            softSkillItems.forEach((item, index) => {
+                item.style.animation = "none";
+                void item.offsetWidth; // Reset animation
+                item.style.animation = `dropIn 0.9s ease-out forwards ${index * 0.1}s`;
+            });
+
+            toolItems.forEach((item, index) => {
+                item.style.animation = "none";
+                void item.offsetWidth; // Reset animation
+                item.style.animation = index < 7
+                    ? `slideInLeft 1s ease-out forwards ${index * 0.1}s`
+                    : `slideInRight 1s ease-out forwards ${index * 0.1}s`;
+            });
+        }
+
+        // Reset the flag when scrolling back above the section
+        if (sectionPos > window.innerHeight) {
+            hasAnimated = false;
+        }
+    }
+
+    window.addEventListener("scroll", animateSkills);
+});
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const projectSection = document.querySelector("#projects"); // Target the section
+    const projectContainer = document.querySelector(".projects-container");
+
+    function animateProjects() {
+        if (!projectSection || !projectContainer) return; // Safety check
+
+        const position = projectSection.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.5;
+
+        if (position < screenPosition) {
+            setTimeout(() => {
+                projectContainer.classList.add("active");
+            }, 100); // Small delay for smooth animation
+
+            // Remove event listener after activation for better performance
+            window.removeEventListener("scroll", animateProjects);
+        }
+    }
+
+    window.addEventListener("scroll", animateProjects);
+    animateProjects(); // Run on page load in case it's already visible
+});
+
+
+
+
+
+  </script>
+</body>
+</html>
